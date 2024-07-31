@@ -1,4 +1,4 @@
-const validateData = (name, email, password) => {
+const validateData = (email, password) => {
     // Regular expression for email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     // Regular expression for password validation
@@ -12,7 +12,7 @@ const validateData = (name, email, password) => {
     // "test@example.com";
     // "Password123";
 
-    if (name === '') return "Name can't be empty";
+    //if (name === '') return "Name can't be empty";
     if (!isEmailValid) return "Email ID is not valid";
     if (!isPasswordValid) return "Password is not valid";
 
