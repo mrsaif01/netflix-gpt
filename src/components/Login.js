@@ -4,7 +4,7 @@ import { validateData } from '../utils/Validate';
 
 const Login = () => {
     const [isSignInForm, setSignInForm] = useState(true);
-    const name = useRef(null);
+    const name = useRef('');
     const email = useRef(null);
     const password = useRef(null);
     const [errorMessage, setErrorMessage] = useState(null);

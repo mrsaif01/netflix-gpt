@@ -19,4 +19,4 @@ const validateData = (name, email, password) => {
     return null;
 };
 
-export {validateData }
+export { validateData }
